@@ -1,0 +1,21 @@
+---
+lab:
+    title: 'Create calculation groups'
+    module: 'Create calculation groups'
+---
+
+## Instructions
+
+The estimated time to complete the lab is 45 minutes
+
+In this lab, you will use Power BI Desktop and Tabular Editor 2 to create
+calculation groups.
+
+In this lab, you learn how to:
+
+-   Create calculation groups.
+-   Format calculation items.
+-   Set calculation group precedence.
+-   Configure visuals to use calculation groups.
+
+1.	Go to the Microsoft Learn exercise at https://aka.ms/dp500-create-calculation-groups and complete the unit in the browser.
