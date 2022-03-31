@@ -41,7 +41,7 @@ can edit a BIM file without accessing any data in the model.
 2.  To open File Explorer, on the taskbar, select the **File Explorer** shortcut.
 
     ![A picture containing graphical user interface Description automatically
-    generated](images/image1.png)
+    generated.](images/image1.png)
 
 3.  In File Explorer, go to **D:\\DP500\\Software**.
 
