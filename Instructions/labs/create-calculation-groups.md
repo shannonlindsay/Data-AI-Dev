@@ -14,14 +14,11 @@ calculation groups.
 In this lab, you learn how to:
 
 -   Create calculation groups.
-
 -   Format calculation items.
-
 -   Set calculation group precedence.
-
 -   Configure visuals to use calculation groups.
 
-## Get started
+## Prepare your environment
 
 In this exercise, you will prepare your environment.
 
@@ -208,14 +205,11 @@ In this task, you will create three sales-related measures.
 
 ## Create a calculation group
 
-In this exercise, you will create two calculation groups. The first will support time intelligence. The second will support currency conversion.
+Now you'll create two calculation groups. The first will support time intelligence. The second will support currency conversion.
 
 ### Create the Time Intelligence calculation group
 
-In this task, you will use Tabular Editor to create the **Time Intelligence**
-calculation group. It will simplify the creation of many time-related
-calculations, including PY (prior year), YoY (year-over-year), and YoY %
-(year-over-year percentage). The calculation group will allow analyzing any
+Use Tabular Editor to create the **Time Intelligence** calculation group. It will simplify the creation of many time-related calculations, including PY (prior year), YoY (year-over-year), and YoY % (year-over-year percentage). The calculation group will allow analyzing any
 measure by using different Time Intelligence calculations.
 
 Power BI Desktop does not support the creation or management of calculation
