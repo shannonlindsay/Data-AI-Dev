@@ -30,20 +30,20 @@ When you query Parquet files using serverless SQL pools, you can explore the dat
 
 1. Open Synapse Studio (<https://web.azuresynapse.net/>), and then navigate to the **Data** hub.
 
-    ![The Data menu item is highlighted.](images/data-hub.png "Data hub")
+    ![The Data menu item is highlighted.](../images/data-hub.png "Data hub")
 
 2. In the pane on the left, on the **Linked** tab, expand **Azure Data Lake Storage Gen2** and the **asaworkspace*xxxxxx***  primary ADLS Gen2 account, and select the **wwi-02** container
 3. In the **sale-small/Year=2019/Quarter=Q4/Month=12/Day=20191231** folder, right-click the **sale-small-20191231-snappy.parquet** file, select **New SQL script**, and then select **Select TOP 100 rows**.
 
-    ![The Data hub is displayed with the options highlighted.](images/data-hub-parquet-select-rows.png "Select TOP 100 rows")
+    ![The Data hub is displayed with the options highlighted.](../images/data-hub-parquet-select-rows.png "Select TOP 100 rows")
 
 3. Ensure **Built-in** is selected in the **Connect to** dropdown list above the query window, and then run the query. Data is loaded by the serverless SQL endpoint and processed as if was coming from any regular relational database.
 
-    ![The Built-in connection is highlighted.](images/built-in-selected.png "SQL Built-in")
+    ![The Built-in connection is highlighted.](../images/built-in-selected.png "SQL Built-in")
 
     The cell output shows the query results from the Parquet file.
 
-    ![The cell output is displayed.](images/sql-on-demand-output.png "SQL output")
+    ![The cell output is displayed.](../images/sql-on-demand-output.png "SQL output")
 
 4. Modify the SQL query to perform aggregates and grouping operations to better understand the data. Replace the query with the following, replacing *SUFFIX* with the unique suffix for your Azure Data Lake store and making sure that the file path in the OPENROWSET function matches the current file path:
 
@@ -60,7 +60,7 @@ When you query Parquet files using serverless SQL pools, you can explore the dat
         ) AS [r] GROUP BY r.TransactionDate, r.ProductId;
     ```
 
-    ![The T-SQL query above is displayed within the query window.](images/sql-serverless-aggregates.png "Query window")
+    ![The T-SQL query above is displayed within the query window.](../images/sql-serverless-aggregates.png "Query window")
 
 5. Let's move on from this single file from 2019 and transition to a newer data set. We want to figure out how many records are contained within the Parquet files for all 2019 data. This information is important for planning how we optimize for importing the data into Azure Synapse Analytics. To do this, we'll replace the query with the following (be sure to update the suffix of your data lake in the BULK statement):
 
@@ -86,7 +86,7 @@ Rather than creating a script with OPENROWSET and a path to the root 2019 folder
 2. Right-click the **sale-small-20191231-snappy.parquet** file, select **New SQL script**, and then select **Create external table**. In the New external table dialog box, click **Continue**.
 3. Make sure **Built-in** is selected for the **SQL pool**. Then, under **Select a database**, select **+ New** and create a database named `demo`, and click **Create**. For **External table name**, enter `All2019Sales`. Finally, under **Create external table**, ensure **Using SQL script** is selected, and then select **Open Script** to generate the SQL script.
 
-    ![The create external table form is displayed.](images/create-external-table-form.png "Create external table")
+    ![The create external table form is displayed.](../images/create-external-table-form.png "Create external table")
 
     > **Note**: The **Properties** pane for the script open automatically. You can close it by using the **Properties** button above it on the right to make it easier to work with the script.
 
@@ -123,13 +123,13 @@ GO
 
 5. Make sure the script is connected to the serverless SQL pool (**Built-in**) and that the **demo** database is selected in the **Use database** list (use the **...** button to see the list if the pane is too small to display it, and then use the &#8635; button to refresh the list if needed).
 
-    ![The Built-in pool and demo database are selected.](images/built-in-and-demo.png "Script toolbar")
+    ![The Built-in pool and demo database are selected.](../images/built-in-and-demo.png "Script toolbar")
 
 6. Run the modified script.
 
     After running the script, we can see the output of the SELECT query against the **All2019Sales** external table. This displays the first 100 records from the Parquet files located in the *YEAR=2019* folder.
 
-    ![The query output is displayed.](images/create-external-table-output.png "Query output")
+    ![The query output is displayed.](../images/create-external-table-output.png "Query output")
 
     > **Tip**: If an error occurs because of a mistake in your code, you should delete any resources that were successfully created before trying again. You can do this by running the appropriate DROP statements, or by switching to the **Workspace** tab, refreshing the list of **Databases**, and deleting the objects in the **demo** database.
 
@@ -187,17 +187,17 @@ You decide to create an external table that connects to the external data source
 
     At the top of the script, we create a MASTER KEY with a random password. Next, we create a database-scoped credential for the containers in the external storage account using a shared access signature (SAS) for delegated access. This credential is used when we create the **SqlOnDemandDemo** external data source that points to the location of the external storage account that contains the population data:
 
-    ![The script is displayed.](images/script1.png "Create master key and credential")
+    ![The script is displayed.](../images/script1.png "Create master key and credential")
 
     > Database-scoped credentials are used when any principal calls the OPENROWSET function with a DATA_SOURCE or selects data from an external table that doesn't access public files. The database scoped credential doesn't need to match the name of storage account because it will be explicitly used in the DATA SOURCE that defines the storage location.
 
     In the next part of the script, we create an external file format called **QuotedCsvWithHeader**. Creating an external file format is a prerequisite for creating an External Table. By creating an External File Format, you specify the actual layout of the data referenced by an external table. Here we specify the CSV field terminator, string delimiter, and set the FIRST_ROW value to 2 since the file contains a header row:
 
-    ![The script is displayed.](images/script2.png "Create external file format")
+    ![The script is displayed.](../images/script2.png "Create external file format")
 
     Finally, at the bottom of the script, we create an external table named **population**. The WITH clause specifies the relative location of the CSV file, points to the data source created above, as well as the *QuotedCsvWithHeader* file format:
 
-    ![The script is displayed.](images/script3.png "Create external table")
+    ![The script is displayed.](../images/script3.png "Create external table")
 
 2. Run the script.
 
@@ -222,7 +222,7 @@ You decide to create an external table that connects to the external data source
     - **Legend (series) columns**: population
     - **Legend position**: bottom - center
 
-    ![The chart is displayed.](images/population-chart.png "Population chart")
+    ![The chart is displayed.](../images/population-chart.png "Population chart")
 
 ### Task 4: Create a view with a serverless SQL pool
 
@@ -230,11 +230,11 @@ Let's create a view to wrap a SQL query. Views allow you to reuse queries and ar
 
 1. In the **Data** hub, on the **Linked** tab, in the **Azure Data Lake Storage Gen2/asaworkspace*xxxxxx*/ wwi-02** container, navigate to the **customer-info** folder. Then right-click the **customerinfo.csv** file, select **New SQL script**, and then **Select TOP 100 rows**.
 
-    ![The Data hub is displayed with the options highlighted.](images/customerinfo-select-rows.png "Select TOP 100 rows")
+    ![The Data hub is displayed with the options highlighted.](../images/customerinfo-select-rows.png "Select TOP 100 rows")
 
 3. Select **Run** to execute the script, and notice that the first row of the CSV file is the column header row. The columns in the resultset are named **C1**, **C2**, and so on.
 
-    ![The CSV results are displayed.](images/select-customerinfo.png "customerinfo.csv file")
+    ![The CSV results are displayed.](../images/select-customerinfo.png "customerinfo.csv file")
 
 4. Update the script with the following code and **make sure you replace SUFFIX** in the OPENROWSET BULK path with your unique resource suffix.
 
@@ -260,23 +260,23 @@ Let's create a view to wrap a SQL query. Views allow you to reuse queries and ar
     GO
     ```
 
-    ![The script is displayed.](images/create-view-script.png "Create view script")
+    ![The script is displayed.](../images/create-view-script.png "Create view script")
 
 5. In the **Use database** list, ensure **demo** is still selected, and then run the script.
 
     We just created the view to wrap the SQL query that selects data from the CSV file, then selected rows from the view:
 
-    ![The query results are displayed.](images/create-view-script-results.png "Query results")
+    ![The query results are displayed.](../images/create-view-script-results.png "Query results")
 
     Notice that the first row no longer contains the column headers. This is because we used the FIRSTROW=2 setting in the OPENROWSET statement when we created the view.
 
 6. In the **Data** hub, select the **Workspace** tab. Then select the actions ellipses **(...)** to the right of the Databases group and select **&#8635; Refresh**. If the workspace is blank, then refresh the browser page.
 
-    ![The refresh button is highlighted.](images/refresh-databases.png "Refresh databases")
+    ![The refresh button is highlighted.](../images/refresh-databases.png "Refresh databases")
 
 7. Expand the **demo** SQL database.
 
-    ![The demo database is displayed.](images/demo-database.png "Demo database")
+    ![The demo database is displayed.](../images/demo-database.png "Demo database")
 
     The database contains the following objects that we created in our earlier steps:
 
