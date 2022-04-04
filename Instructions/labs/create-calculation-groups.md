@@ -26,8 +26,10 @@ In this exercise, you will prepare your environment.
 
 In this task, you will install Tabular Editor 2.
 
+<div class="alert alert-success">
 Important: If you have already installed Tabular Editor 2 in your VM
 environment, continue to the next task.
+</div>
 
 Tabular Editor is an editor alternative tool for authoring tabular models for
 Analysis Services and Power BI. Tabular Editor 2 is an open source project that
