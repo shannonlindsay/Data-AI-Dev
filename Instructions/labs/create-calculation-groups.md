@@ -22,9 +22,9 @@ In this lab, you learn how to:
 
 Prepare your lab environment by installing Tabular Editor 2, setting up Power BI desktop, reviewing the data model, and creating measures.
 
-### Install Tabular Editor 2
+### Download and Install Tabular Editor 2
 
-Install Tabular Editor 2 to enable the creation of calculation groups.
+Download and install Tabular Editor 2 to enable the creation of calculation groups.
 
 **Important:** *If you have already installed Tabular Editor 2 in your VM
 environment, continue to the next task.*
@@ -35,41 +35,38 @@ can edit a BIM file without accessing any data in the model.*
 
 1.  Ensure Power BI Desktop is closed.
 
-2.  To open File Explorer, on the taskbar, select the **File Explorer** shortcut.
+1.  In Microsoft Edge, naviate to the [Tabular Editor Release](https://github.com/TabularEditor/TabularEditor/releases) page.
+1. Scroll down to the **Assets** section and select the **TabularEditor.Installer.msi** file. This will initiate the file install.
+1. Upon completion, select **Open file** to run the installer.
+ ![Graphical user interface, application Description automatically
+    generated](../images/calculationgroups-downloadTE.png)
 
-    ![A picture containing graphical user interface Description automatically
-    generated.](../images/image1.png)
-
-3.  In File Explorer, go to **D:\\DP500\\Software**.
-
-4.  To install Tabular Editor, double-click the **TabularEditor.Installer.msi** file.
-
-5.  In the Tabular Editor installer window, select **Next**.
+1.  In the Tabular Editor installer window, select **Next**.
 
     ![Graphical user interface, application Description automatically
     generated](../images/image2.png)
 
-6.  At the **License Agreement** step, if you agree, select **I agree**, and then select **Next**.
+1.  At the **License Agreement** step, if you agree, select **I agree**, and then select **Next**.
 
     ![Graphical user interface, application Description automatically
     generated](../images/image3.png)
 
-7.  At the **Select Installation Folder** step, select **Next**.
+1.  At the **Select Installation Folder** step, select **Next**.
 
     ![Shape Description automatically generated with medium
     confidence](../images/image4.png)
 
-8.  At the **Application Shortcuts** step, select **Next**.
+1.  At the **Application Shortcuts** step, select **Next**.
 
     ![Shape Description automatically generated with medium
     confidence](../images/image4.png)
 
-9.  At the **Confirm Installation** step, select **Next**.
+1.  At the **Confirm Installation** step, select **Next**.
 
     ![Shape Description automatically generated with medium
     confidence](../images/image4.png)
 
-10. When the installation is complete, select **Close**.
+1. When the installation is complete, select **Close**.
 
     ![A picture containing shape Description automatically
     generated](../images/image5.png)
