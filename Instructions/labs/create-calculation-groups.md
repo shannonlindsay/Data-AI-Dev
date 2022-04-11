@@ -35,7 +35,8 @@ can edit a BIM file without accessing any data in the model.*
 
 1.  Ensure Power BI Desktop is closed.
 
-1.  In Microsoft Edge, navigate to the [Tabular Editor Release](https://github.com/TabularEditor/TabularEditor/releases) page.
+1.  In Microsoft Edge, navigate to the Tabular Editor Release page.
+```https://github.com/TabularEditor/TabularEditor/releases```
 1. Scroll down to the **Assets** section and select the **TabularEditor.Installer.msi** file. This will initiate the file install.
 1. Upon completion, select **Open file** to run the installer.
  ![Graphical user interface, application Description automatically generated](../images/calculationgroups-downloadTE.png)
