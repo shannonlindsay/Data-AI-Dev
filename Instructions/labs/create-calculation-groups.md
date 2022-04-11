@@ -39,7 +39,8 @@ can edit a BIM file without accessing any data in the model.*
 ```https://github.com/TabularEditor/TabularEditor/releases```
 1. Scroll down to the **Assets** section and select the **TabularEditor.Installer.msi** file. This will initiate the file install.
 1. Upon completion, select **Open file** to run the installer.
- ![Graphical user interface, application Description automatically generated](../images/calculationgroups-downloadTE.png)
+
+    ![Graphical user interface, application Description automatically generated](../images/calculationgroups-downloadTE.png)
 
 1.  In the Tabular Editor installer window, select **Next**.
 
