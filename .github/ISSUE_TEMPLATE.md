@@ -2,6 +2,8 @@
 ## Task: Abc
 ### Step: 00
 
+Issue Type: **blocking** or **non-blocking**
+
 Description of issue
 
 Repro steps (please include screenshot if applicable):
