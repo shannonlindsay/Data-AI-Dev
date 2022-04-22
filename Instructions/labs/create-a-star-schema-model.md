@@ -1,3 +1,9 @@
+---
+lab:
+    title: 'Create a star schema model'
+    module: 'Create a star schema model'
+---
+
 # Create a star schema model
 
 ## Overview

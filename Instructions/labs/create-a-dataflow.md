@@ -1,3 +1,9 @@
+---
+lab:
+    title: 'Create a dataflow'
+    module: 'Create a dataflow'
+---
+
 # Create a dataflow
 
 ## Overview

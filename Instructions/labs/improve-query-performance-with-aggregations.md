@@ -1,3 +1,9 @@
+---
+lab:
+    title: 'Improve query performance with aggregations'
+    module: 'Improve query performance with aggregations'
+---
+
 # DP500: Improve query performance with aggregations
 
 ## Overview

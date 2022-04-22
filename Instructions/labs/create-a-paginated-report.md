@@ -1,3 +1,9 @@
+---
+lab:
+    title: 'Create a paginated report'
+    module: 'Create a paginated report'
+---
+
 # Create a paginated report
 
 ## Overview

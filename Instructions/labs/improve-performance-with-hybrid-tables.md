@@ -1,3 +1,9 @@
+---
+lab:
+    title: 'Improve performance with hybrid tables'
+    module: 'Improve performance with hybrid tables'
+---
+
 # DP500: Improve performance with hybrid tables
 
 ## Overview

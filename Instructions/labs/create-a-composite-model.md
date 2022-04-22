@@ -1,3 +1,9 @@
+---
+lab:
+    title: 'Create a composite model'
+    module: 'Create a composite model'
+---
+
 # Create a composite model
 
 ## Overview

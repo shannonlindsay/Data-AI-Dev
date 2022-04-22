@@ -1,4 +1,8 @@
-
+---
+lab:
+    title: 'Use tools to optimize Power BI performance'
+    module: 'Use tools to optimize Power BI performance'
+---
 
 # DP500: Use tools to optimize Power BI performance
 

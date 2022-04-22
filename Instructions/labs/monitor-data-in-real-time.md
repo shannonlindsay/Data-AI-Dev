@@ -1,4 +1,8 @@
-
+---
+lab:
+    title: 'Monitor data in real time'
+    module: 'Monitor data in real time'
+---
 
 # DP500: Monitor data in real time
 

@@ -1,3 +1,9 @@
+---
+lab:
+    title: 'Create reusable Power BI artifacts'
+    module: 'Create reusable Power BI artifacts'
+---
+
 # DP500: Create reusable Power BI artifacts
 
 ## Overview

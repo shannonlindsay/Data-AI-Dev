@@ -1,3 +1,9 @@
+---
+lab:
+    title: 'Enforce model security'
+    module: 'Enforce model security'
+---
+
 # DP500: Enforce model security
 
 ## Overview
