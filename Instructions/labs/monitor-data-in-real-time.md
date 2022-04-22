@@ -26,14 +26,14 @@ In this task, you will use SQL Server Management Studio (SSMS) to setup the data
 
 1. To open SSMS, on the taskbar, select the **SSMS** shortcut.
 
-	![](images/dp500-monitor-data-in-real-time-image1.png)
+	![](../images/dp500-monitor-data-in-real-time-image1.png)
 
 2. In the **Connect to Server** window, ensure that the **Server name** dropdown list is set to **localhost**, and that the Authentication dropdown list is set to **Windows Authentication**.
-	![](images/dp500-monitor-data-in-real-time-image2.png)
+	![](../images/dp500-monitor-data-in-real-time-image2.png)
 
 3. Select **Connect**.
 	
-	![](images/dp500-monitor-data-in-real-time-image3.png)
+	![](../images/dp500-monitor-data-in-real-time-image3.png)
 
 4. To open a script file, on the **File** menu, select **Open** > **File**.
 
@@ -41,11 +41,11 @@ In this task, you will use SQL Server Management Studio (SSMS) to setup the data
 
 6. Select the **1-Setup.sql** file.
 
-	![](images/dp500-monitor-data-in-real-time-image4.png)
+	![](../images/dp500-monitor-data-in-real-time-image4.png)
 
 7. Select **Open**.
 
-	![](images/dp500-monitor-data-in-real-time-image5.png)
+	![](../images/dp500-monitor-data-in-real-time-image5.png)
 
 8. Review the script.
 
@@ -53,13 +53,13 @@ In this task, you will use SQL Server Management Studio (SSMS) to setup the data
 
 9. To run a script, on the toolbar, select **Execute** (or press **F5**).
 
-	![](images/dp500-monitor-data-in-real-time-image6.png)
+	![](../images/dp500-monitor-data-in-real-time-image6.png)
 
 10. To close the file, on the **File** menu, select **Close**.
 
 11. Open the **2-InsertOrders.sql** file.
 
-	![](images/dp500-monitor-data-in-real-time-image7.png)
+	![](../images/dp500-monitor-data-in-real-time-image7.png)
 
 12. Review this script also.
 
@@ -73,7 +73,7 @@ In this task, you will open a pre-developed Power BI Desktop solution.
 
 1. To open File Explorer, on the taskbar, select the **File Explorer** shortcut.
 
-	![](images/dp500-monitor-data-in-real-time-image8.png)
+	![](../images/dp500-monitor-data-in-real-time-image8.png)
 
 2. Go to the **D:\DP500\Monitor data in real time\Starter** folder.
 
@@ -91,23 +91,23 @@ In this task, you will review the pre-developed report.
 
 1. In Power BI Desktop, review the report page.
 
-	![](images/dp500-monitor-data-in-real-time-image9.png)
+	![](../images/dp500-monitor-data-in-real-time-image9.png)
 
 	*This report page has a title and two visuals. The card visual displays the number of sales orders, while the bar chart visual displays the sales amount for each bike subcategory.*
 
 2. To refresh the report, on the **View** ribbon tab, from inside the **Show** panes group, select **Performance analyzer**.
 
-	![](images/dp500-monitor-data-in-real-time-image10.png)
+	![](../images/dp500-monitor-data-in-real-time-image10.png)
 
 3. In the **Performance analyzer** pane (located to the right of the **Visualizations** pane), select **Start recording**.
 
-	![](images/dp500-monitor-data-in-real-time-image11.png)
+	![](../images/dp500-monitor-data-in-real-time-image11.png)
 
 	*Performance analyzer inspects and displays the duration necessary to update or refresh the visuals. Each visual issues at least one query to the source database. For more information, see [Use Performance Analyzer to examine report element performance](https://docs.microsoft.com/power-bi/create-reports/desktop-performance-analyzer).*
 
 4. Select **Refresh visuals**.
 
-	![](images/dp500-monitor-data-in-real-time-image12.png)
+	![](../images/dp500-monitor-data-in-real-time-image12.png)
 
 5. Notice that the report visuals update to show the latest internet sales results.
 
@@ -129,11 +129,11 @@ In this task, you will set up automatic page refresh.
 
 2. In the **Visualizations** pane, select the format icon (paint brush).
 
-	![](images/dp500-monitor-data-in-real-time-image13.png)
+	![](../images/dp500-monitor-data-in-real-time-image13.png)
 
 3. Switch the **Page refresh** setting (last in the list) to **On**.
 
-	![](images/dp500-monitor-data-in-real-time-image14.png)
+	![](../images/dp500-monitor-data-in-real-time-image14.png)
 
 	*Automatic page refresh is a page-level setting. You can enable it for specific pages in the report.*
 
@@ -141,13 +141,13 @@ In this task, you will set up automatic page refresh.
 
 5. In the **Visualizations** pane, expand open the **Page refresh** settings.
 
-	![](images/dp500-monitor-data-in-real-time-image15.png)
+	![](../images/dp500-monitor-data-in-real-time-image15.png)
 
 6. Notice that by default the page will refresh every 30 minutes.
 
 7. Modify the settings to refresh the page every 5 seconds.
 
-	![](images/dp500-monitor-data-in-real-time-image16.png)
+	![](../images/dp500-monitor-data-in-real-time-image16.png)
 
 	*Important: This frequent refresh interval will help you efficiently work through this lab. But take care, because setting such a frequent refresh interval could seriously impact on the performance of the source database and other users viewing the report.*
 
@@ -161,37 +161,37 @@ In this task, you will set up change detection.
 
 1. In the **Page refresh** settings, set the **Refresh type** dropdown list to **Change detection**.
 
-	![](images/dp500-monitor-data-in-real-time-image17.png)
+	![](../images/dp500-monitor-data-in-real-time-image17.png)
 
 2. To create a change detection measure, select the **Add change detection** link.
 
-	![](images/dp500-monitor-data-in-real-time-image18.png)
+	![](../images/dp500-monitor-data-in-real-time-image18.png)
 
 3. In the **Change detection** window, notice that the default set up is to create a new measure.
 
-	![](images/dp500-monitor-data-in-real-time-image19.png)
+	![](../images/dp500-monitor-data-in-real-time-image19.png)
 
 4. In the **Choose a calculation** dropdown list, select **Count (Distinct)**.
 
-	![](images/dp500-monitor-data-in-real-time-image20.png)
+	![](../images/dp500-monitor-data-in-real-time-image20.png)
 
 5. In the **Fields** pane (located at the right, inside the window), scroll down to locate the **Internet Sales** table.
 
 6. Select the **Sales Order** field, and notice that the window added it to the **Choose a field to apply it to** box.
 
-	![](images/dp500-monitor-data-in-real-time-image21.png)
+	![](../images/dp500-monitor-data-in-real-time-image21.png)
 
 7. For the **Check for changes every** setting, set it to 5 seconds.
 
-	![](images/dp500-monitor-data-in-real-time-image22.png)
+	![](../images/dp500-monitor-data-in-real-time-image22.png)
 
 8. Select **Apply**.
 
-	![](images/dp500-monitor-data-in-real-time-image23.png)
+	![](../images/dp500-monitor-data-in-real-time-image23.png)
 
 9. In the **Fields** pane, inside the **Internet Sales** table, notice the addition of a change detection measure.
 
-	![](images/dp500-monitor-data-in-real-time-image24.png)
+	![](../images/dp500-monitor-data-in-real-time-image24.png)
 
 	*Power BI now uses the change detection measure to query the source database every five seconds. Each time, Power BI stores the result so it can compare it the next time it's used. When the results differ, it means the data has changed (in this case, the database inserted new internet sales orders). In this case, Power BI refreshes all report page visuals.*
 
@@ -199,7 +199,7 @@ In this task, you will set up change detection.
 
 10. In the **Performance analyzer** pane, select **Clear**.
 
-	![](images/dp500-monitor-data-in-real-time-image25.png)
+	![](../images/dp500-monitor-data-in-real-time-image25.png)
 
 11. Notice that Performance analyzer displays change detection queries.
 
@@ -213,19 +213,19 @@ In this task, you will finish up.
 
 1. Save the Power BI Desktop file.
 
-	![](images/dp500-monitor-data-in-real-time-image26.png)
+	![](../images/dp500-monitor-data-in-real-time-image26.png)
 
 2. Close Power BI Desktop.
 
 3. In SSMS, to stop running the script, on the toolbar, select **Stop** (or press **Alt+Break**).
 
-	![](images/dp500-monitor-data-in-real-time-image27.png)
+	![](../images/dp500-monitor-data-in-real-time-image27.png)
 
 4. Close the script file.
 
 5. Open the **3-Cleanup.sql** file.
 
-	![](images/dp500-monitor-data-in-real-time-image28.png)
+	![](../images/dp500-monitor-data-in-real-time-image28.png)
 
 	*This script removes the **FactInternetSalesRealTime** table.*
 

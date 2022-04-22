@@ -32,7 +32,7 @@ In this task, you will install Tabular Editor 2.
 
 2. To open File Explorer, on the taskbar, select the **File Explorer** shortcut.
 
-	![](images/dp500-use-tools-to-optimize-power-bi-performance-image1.png)
+	![](../images/dp500-use-tools-to-optimize-power-bi-performance-image1.png)
 
 3. In File Explorer, go to **D:\DP500\Software**.
 
@@ -40,27 +40,27 @@ In this task, you will install Tabular Editor 2.
 
 5. In the Tabular Editor installer window, select **Next**.
 
-	![](images/dp500-use-tools-to-optimize-power-bi-performance-image2.png)
+	![](../images/dp500-use-tools-to-optimize-power-bi-performance-image2.png)
 
 6. At the **License Agreement** step, if you agree, select **I agree**, and then select **Next**.
 
-	![](images/dp500-use-tools-to-optimize-power-bi-performance-image3.png)
+	![](../images/dp500-use-tools-to-optimize-power-bi-performance-image3.png)
 
 7. At the **Select Installation Folder** step, select **Next**.
 
-	![](images/dp500-use-tools-to-optimize-power-bi-performance-image4.png)
+	![](../images/dp500-use-tools-to-optimize-power-bi-performance-image4.png)
 
 8. At the **Application Shortcuts** step, select **Next**.
 
-	![](images/dp500-use-tools-to-optimize-power-bi-performance-image5.png)
+	![](../images/dp500-use-tools-to-optimize-power-bi-performance-image5.png)
 
 9. At the **Confirm Installation** step, select **Next**.
 
-	![](images/dp500-use-tools-to-optimize-power-bi-performance-image6.png)
+	![](../images/dp500-use-tools-to-optimize-power-bi-performance-image6.png)
 
 10. When the installation is complete, select **Close**.
 
-	![](images/dp500-use-tools-to-optimize-power-bi-performance-image7.png)
+	![](../images/dp500-use-tools-to-optimize-power-bi-performance-image7.png)
 
 	*Tabular Editor is now installed and registered as a Power BI Desktop external tool.*
 
@@ -80,11 +80,11 @@ In this task, you will open a pre-developed Power BI Desktop solution.
 
 6. Select the **External Tools** ribbon tab.
 
-	![](images/dp500-use-tools-to-optimize-power-bi-performance-image8.png)
+	![](../images/dp500-use-tools-to-optimize-power-bi-performance-image8.png)
 
 7. Notice that it's possible to launch Tabular Editor from this ribbon tab.
 
-	![](images/dp500-use-tools-to-optimize-power-bi-performance-image9.png)
+	![](../images/dp500-use-tools-to-optimize-power-bi-performance-image9.png)
 
 	*Later in this exercise, you will use Tabular Editor to work with BPA.*
 
@@ -94,11 +94,11 @@ In this task, you will review the data model.
 
 1. In Power BI Desktop, at the left, switch to **Model** view.
 
-	![](images/dp500-use-tools-to-optimize-power-bi-performance-image10.png)
+	![](../images/dp500-use-tools-to-optimize-power-bi-performance-image10.png)
 
 2. Use the model diagram to review the model design.
 
-	![](images/dp500-use-tools-to-optimize-power-bi-performance-image11.png)
+	![](../images/dp500-use-tools-to-optimize-power-bi-performance-image11.png)
 
 	*The model comprises eight dimension tables and one fact table. The **Sales** fact table stores sales order details. It's a classic star schema design that includes snowflake dimension tables (**Category** > **Subcategory** > **Product**) for the product dimension.*
 
@@ -112,13 +112,13 @@ In this task, you will load BPA rules.
 
 1. On the **External Tools** ribbon, select **Tabular Editor**.
 
-	![](images/dp500-use-tools-to-optimize-power-bi-performance-image12.png)
+	![](../images/dp500-use-tools-to-optimize-power-bi-performance-image12.png)
 
 	*Tabular Editor opens in a new window and connects live to the data model hosted in Power BI Desktop. Changes made to the model in Tabular Editor aren't propagated to Power BI Desktop until you save them.*
 
 2. To load the BPA rules, select the **Advanced Scripting** tab.
 
-	![](images/dp500-use-tools-to-optimize-power-bi-performance-image13.png)
+	![](../images/dp500-use-tools-to-optimize-power-bi-performance-image13.png)
 
 3. Paste in the following script.
 
@@ -135,7 +135,7 @@ In this task, you will load BPA rules.
 
 4. To run the script, on the toolbar, select the **Run script** command.
 
-	![](images/dp500-use-tools-to-optimize-power-bi-performance-image14.png)
+	![](../images/dp500-use-tools-to-optimize-power-bi-performance-image14.png)
 
 	*To use the BPA rules, you must close and then reopen Tabular Editor.*
 
@@ -143,7 +143,7 @@ In this task, you will load BPA rules.
 
 6. To reopen Tabular Editor, in Power BI Desktop, on the **External Tools** ribbon, select **Tabular Editor**.
 
-	![](images/dp500-use-tools-to-optimize-power-bi-performance-image15.png)
+	![](../images/dp500-use-tools-to-optimize-power-bi-performance-image15.png)
 
 ### Review the BPA rules
 
@@ -151,11 +151,11 @@ In this task, you will review the BPA rules that you loaded in the previous task
 
 1. In Tabular Editor, on the menu, select **Tools** > **Manage BPA Rules**.
 
-	![](images/dp500-use-tools-to-optimize-power-bi-performance-image16.png)
+	![](../images/dp500-use-tools-to-optimize-power-bi-performance-image16.png)
 
 2. In the **Manage Best Practice Rules** window, in the **Rule collections** list, select **Rules for the local user**.
 
-	![](images/dp500-use-tools-to-optimize-power-bi-performance-image17.png)
+	![](../images/dp500-use-tools-to-optimize-power-bi-performance-image17.png)
 
 3. In the **Rules in collection** list, scroll down the list of rules.
 
@@ -173,13 +173,13 @@ In this task, you will review the BPA rules that you loaded in the previous task
 
 6. Scroll to the bottom of the list, and then uncheck the **Set IsAvailableInMdx to false on non-attribute columns** rule.
 
-	![](images/dp500-use-tools-to-optimize-power-bi-performance-image18.png)
+	![](../images/dp500-use-tools-to-optimize-power-bi-performance-image18.png)
 
 	*You can disable individual rules or entire categories of rules. BPA won't check disabled rules against your model. The removal of this specific rule is to show you how to disable a rule.*
 
 7. Select **OK**.
 
-	![](images/dp500-use-tools-to-optimize-power-bi-performance-image19.png)
+	![](../images/dp500-use-tools-to-optimize-power-bi-performance-image19.png)
 
 ### Address BPA issues
 
@@ -187,7 +187,7 @@ In this task, you will open BPA and review the results of the checks.
 
 1. On the menu, select **Tools** > **Best Practice Analyzer** (or press **F10**).
 
-	![](images/dp500-use-tools-to-optimize-power-bi-performance-image20.png)
+	![](../images/dp500-use-tools-to-optimize-power-bi-performance-image20.png)
 
 2. In the **Best Practice Analyzer** window, if necessary, maximize the window.
 
@@ -195,13 +195,13 @@ In this task, you will open BPA and review the results of the checks.
 
 4. In the first category, right-click the **'Product'** table, and then select **Ignore item**.
 
-	![](images/dp500-use-tools-to-optimize-power-bi-performance-image21.png)
+	![](../images/dp500-use-tools-to-optimize-power-bi-performance-image21.png)
 
 	*When an issue isn't really an issue, you can ignore that item. You can always reveal ignored items by using the **Show ignored** command on the toolbar.*
 
 5. Further down the list, in the **Use the DIVIDE function for division** category, right-click **[Profit Margin]**, and then select **Go to object**.
 
-	![](images/dp500-use-tools-to-optimize-power-bi-performance-image22.png)
+	![](../images/dp500-use-tools-to-optimize-power-bi-performance-image22.png)
 
 	*This command switches to Tabular Editor and focuses on the object. It makes it easy to apply a fix to the issue.*
 
@@ -215,7 +215,7 @@ In this task, you will open BPA and review the results of the checks.
 
 7. To save the model changes, on the toolbar, select the **Save changes to the connected database** command (or press **Ctrl+S**).
 
-	![](images/dp500-use-tools-to-optimize-power-bi-performance-image23.png)
+	![](../images/dp500-use-tools-to-optimize-power-bi-performance-image23.png)
 
 	*Saving changes pushes modifications to the Power BI Desktop data model.*
 
@@ -225,11 +225,11 @@ In this task, you will open BPA and review the results of the checks.
 
 10. Scroll down the list of issues to locate the **Provide format string for "Date" columns** category.
 
-	![](images/dp500-use-tools-to-optimize-power-bi-performance-image24.png)
+	![](../images/dp500-use-tools-to-optimize-power-bi-performance-image24.png)
 
 11. Right-click the **'Date'[Date]** issue, and then select **Generate fix script**.
 
-	![](images/dp500-use-tools-to-optimize-power-bi-performance-image25.png)
+	![](../images/dp500-use-tools-to-optimize-power-bi-performance-image25.png)
 
 	*This command generates a C# script and copies it to the clipboard. You can also use the **Apply fix** command to generate and run the script, however it might be safer to review (and modify) the script before you run it.*
 
@@ -237,17 +237,17 @@ In this task, you will open BPA and review the results of the checks.
 
 13. Switch to Tabular Editor, and select the **Advanced Scripting** tab.
 
-	![](images/dp500-use-tools-to-optimize-power-bi-performance-image26.png)
+	![](../images/dp500-use-tools-to-optimize-power-bi-performance-image26.png)
 
 14. To copy the fix script, right-click inside the pane, and then press **Ctrl+C**.
 
-	![](images/dp500-use-tools-to-optimize-power-bi-performance-image27.png)
+	![](../images/dp500-use-tools-to-optimize-power-bi-performance-image27.png)
 
 	*You can choose to make a change to the format string.*
 
 15. To run the script, on the toolbar, select the **Run script** command.
 
-	![](images/dp500-use-tools-to-optimize-power-bi-performance-image28.png)
+	![](../images/dp500-use-tools-to-optimize-power-bi-performance-image28.png)
 
 16. Save the model changes.
 
@@ -255,7 +255,7 @@ In this task, you will open BPA and review the results of the checks.
 
 18. Save the Power BI Desktop file.
 
-	![](images/dp500-use-tools-to-optimize-power-bi-performance-image29.png)
+	![](../images/dp500-use-tools-to-optimize-power-bi-performance-image29.png)
 
 	*You must also save the Power BI Desktop file to ensure the Tabular Editor changes are saved.*
 
@@ -281,11 +281,11 @@ In this task, you will open DAX Studio.
 
 6. In the corresponding dropdown list, ensure the **Sales Analysis - Use tools to optimize Power BI performance** model is selected.
 
-	![](images/dp500-use-tools-to-optimize-power-bi-performance-image30.png)
+	![](../images/dp500-use-tools-to-optimize-power-bi-performance-image30.png)
 
 7. Select **Connect**.
 
-	![](images/dp500-use-tools-to-optimize-power-bi-performance-image31.png)
+	![](../images/dp500-use-tools-to-optimize-power-bi-performance-image31.png)
 
 8. If necessary, maximize the DAX Studio window.
 
@@ -297,7 +297,7 @@ In this task, you will optimize a query by using an improved measure formula.
 
 1. On the **File** ribbon tab, select **Browse**.
 
-	![](images/dp500-use-tools-to-optimize-power-bi-performance-image32.png)
+	![](../images/dp500-use-tools-to-optimize-power-bi-performance-image32.png)
 
 2. In the **Open** window, go to the **D:\DP500\Use tools to optimize Power BI performance\Assets** folder.
 
@@ -305,7 +305,7 @@ In this task, you will optimize a query by using an improved measure formula.
 
 4. Select **Open**.
 
-	![](images/dp500-use-tools-to-optimize-power-bi-performance-image33.png)
+	![](../images/dp500-use-tools-to-optimize-power-bi-performance-image33.png)
 
 5. Read the comments at the top of the file, and then review the query that follows.
 
@@ -315,11 +315,11 @@ In this task, you will optimize a query by using an improved measure formula.
 
 6. To run a server trace to record detailed timing information for performance profiling, on the **Home** ribbon tab, from inside the **Traces** group, select **Server Timings**.
 
-	![](images/dp500-use-tools-to-optimize-power-bi-performance-image34.png)
+	![](../images/dp500-use-tools-to-optimize-power-bi-performance-image34.png)
 
 7. To run the script, on the **Home** ribbon tab, from inside the **Query** group, select the **Run** icon.
 
-	![](images/dp500-use-tools-to-optimize-power-bi-performance-image35.png)
+	![](../images/dp500-use-tools-to-optimize-power-bi-performance-image35.png)
 
 8. In the lower pane, review the query result.
 
@@ -327,11 +327,11 @@ In this task, you will optimize a query by using an improved measure formula.
 
 9. In the lower pane, select the **Server Timings** tab.
 
-	![](images/dp500-use-tools-to-optimize-power-bi-performance-image36.png)
+	![](../images/dp500-use-tools-to-optimize-power-bi-performance-image36.png)
 
 10. Review the statistics available at the left side.
 
-	![](images/dp500-use-tools-to-optimize-power-bi-performance-image37.png)
+	![](../images/dp500-use-tools-to-optimize-power-bi-performance-image37.png)
 
 	*From top left to bottom right, the statistics tell you how many milliseconds it took to run the query, and the duration the storage engine (SE) CPU took. In this case (your results will differ), the formula engine (FE) took 73.5% of the time, while the SE took the remaining 26.5% of the time. There were 34 individual SE queries and 21 cache hits.*
 
@@ -339,21 +339,21 @@ In this task, you will optimize a query by using an improved measure formula.
 
 	*That's because the results were cached for reuse. Sometimes in your testing, you may want to clear the cache. In that case, on the **Home** ribbon tab, by selecting the down arrow for the **Run** command.*
 
-	![](images/dp500-use-tools-to-optimize-power-bi-performance-image38.png)
+	![](../images/dp500-use-tools-to-optimize-power-bi-performance-image38.png)
 
 	*The second measure definition provides a more efficient result. You will now update the query to use the second measure.*
 
 12. At line 72, replace the word **Bad** with **Better**.
 
-	![](images/dp500-use-tools-to-optimize-power-bi-performance-image39.png)
+	![](../images/dp500-use-tools-to-optimize-power-bi-performance-image39.png)
 
 13. Run the query, and then review the server timing statistics.
 
-	![](images/dp500-use-tools-to-optimize-power-bi-performance-image40.png)
+	![](../images/dp500-use-tools-to-optimize-power-bi-performance-image40.png)
 
 14. Run it a second time to result in full cache hits.
 
-	![](images/dp500-use-tools-to-optimize-power-bi-performance-image41.png)
+	![](../images/dp500-use-tools-to-optimize-power-bi-performance-image41.png)
 
 	*In this case, you can determine that the "better" query, which uses variables and a time intelligence function, performs better-almost a 50% reduction in query execution time.*
 

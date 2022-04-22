@@ -22,7 +22,7 @@ In this task, you will open a pre-developed Power BI Desktop solution.
 
 1. To open File Explorer, on the taskbar, select the **File Explorer** shortcut.
 
-	![](images/dp500-improve-query-performance-with-dual-storage-mode-image1.png)
+	![](../images/dp500-improve-query-performance-with-dual-storage-mode-image1.png)
 
 2. Go to the **D:\DP500\Improve query performance with dual storage mode\Starter** folder.
 
@@ -30,7 +30,7 @@ In this task, you will open a pre-developed Power BI Desktop solution.
 
 4. If prompted about a potential security risk, read the message, and then select **OK**.
 
-	![](images/dp500-improve-query-performance-with-dual-storage-mode-image2.png)
+	![](../images/dp500-improve-query-performance-with-dual-storage-mode-image2.png)
 
 5. To save the file, on the **File** ribbon tab, select **Save as**.
 
@@ -44,13 +44,13 @@ In this task, you will review the pre-developed report.
 
 1. In Power BI Desktop, at the bottom right corner in the status bar, notice that the storage mode is Mixed.
 
-	![](images/dp500-improve-query-performance-with-dual-storage-mode-image3.png)
+	![](../images/dp500-improve-query-performance-with-dual-storage-mode-image3.png)
 
 	*A mixed model comprises tables from different source groups. This model has one import table that sources its data from an Excel workbook. The remaining tables use a DirectQuery connection to a SQL Server database, which is the data warehouse.*
 
 2. Review the report design.
 
-	![](images/dp500-improve-query-performance-with-dual-storage-mode-image4.png)
+	![](../images/dp500-improve-query-performance-with-dual-storage-mode-image4.png)
 
 	*This report page has a title and two visuals. The slicer visual allows filtering by a single fiscal year, while the column chart visual displays quarterly sales and target amounts. You will improve the performance of the report by setting some tables to use dual storage mode.*
 
@@ -60,11 +60,11 @@ In this task, you will review the pre-developed data model.
 
 1. Switch to **Model** view.
 
-	![](images/dp500-improve-query-performance-with-dual-storage-mode-image5.png)
+	![](../images/dp500-improve-query-performance-with-dual-storage-mode-image5.png)
 
 2. Use the model diagram to review the model design.
 
-	![](images/dp500-improve-query-performance-with-dual-storage-mode-image6.png)
+	![](../images/dp500-improve-query-performance-with-dual-storage-mode-image6.png)
 
 	*The model comprises three dimension tables and two fact tables. The **Sales** fact table represents sales order details, while the **Targets** table represents quarterly sales targets. It's a classic star schema design. The bar across the top of some of the tables indicate they use DirectQuery storage mode. Every table that has a blue bar belongs to the same source group.*
 
@@ -82,31 +82,31 @@ In this task, you will open Performance analyzer and use it to inspect refresh e
 
 1. Switch to **Report** view.
 
-	![](images/dp500-improve-query-performance-with-dual-storage-mode-image7.png)
+	![](../images/dp500-improve-query-performance-with-dual-storage-mode-image7.png)
 
 2. To inspect visual refresh events, on the **View** ribbon tab, from inside the **Show** panes group, select **Performance analyzer**.
 
-	![](images/dp500-improve-query-performance-with-dual-storage-mode-image8.png)
+	![](../images/dp500-improve-query-performance-with-dual-storage-mode-image8.png)
 
 3. In the **Performance analyzer** pane (located to the left of the **Visualizations** pane), select **Start recording**.
 
-	![](images/dp500-improve-query-performance-with-dual-storage-mode-image9.png)
+	![](../images/dp500-improve-query-performance-with-dual-storage-mode-image9.png)
 
 	*Performance analyzer inspects and displays the duration necessary to update or refresh the visuals. Each visual issues at least one query to the source database. For more information, see [Use Performance Analyzer to examine report element performance](https://docs.microsoft.com/power-bi/create-reports/desktop-performance-analyzer).*
 
 4. Select **Refresh visuals**.
 
-	![](images/dp500-improve-query-performance-with-dual-storage-mode-image10.png)
+	![](../images/dp500-improve-query-performance-with-dual-storage-mode-image10.png)
 
 5. In the **Performance analyzer** pane, expand open the **Slicer** visual, and notice the direct query event.
 
-	![](images/dp500-improve-query-performance-with-dual-storage-mode-image11.png)
+	![](../images/dp500-improve-query-performance-with-dual-storage-mode-image11.png)
 
 	*Whenever you see a direct query event, it tells you that Power BI used DirectQuery storage mode to retrieve the data from the source database.*
 
 6. Expand open the **Sales Result by Fiscal Quarter** visual, and notice that it recorded a direct query event also.
 
-	![](images/dp500-improve-query-performance-with-dual-storage-mode-image12.png)
+	![](../images/dp500-improve-query-performance-with-dual-storage-mode-image12.png)
 
 	*You always set up a slicer visual by using one or more fields from the same table. It isn't possible to use fields from different tables to set up a slicer. What's more, a slicer almost always uses fields from a dimension table. So, to improve query performance of slicer visuals, ensure they store imported data. In this case, because the dimension tables use DirectQuery storage mode, you can set them to dual storage mode. Because dimension tables store few rows (relative to fact tables), it shouldn't result in an excessively large model cache.*
 
@@ -122,21 +122,21 @@ In this task, you will set all dimension tables to use dual storage mode.
 
 4. In the **Properties** pane, expand open the **Advanced** section.
 
-	![](images/dp500-improve-query-performance-with-dual-storage-mode-image13.png)
+	![](../images/dp500-improve-query-performance-with-dual-storage-mode-image13.png)
 
 5. In the **Storage mode** dropdown list, select **Dual**.
 
-	![](images/dp500-improve-query-performance-with-dual-storage-mode-image14.png)
+	![](../images/dp500-improve-query-performance-with-dual-storage-mode-image14.png)
 
 6. When prompted to confirm the update, select **OK**.
 
-	![](images/dp500-improve-query-performance-with-dual-storage-mode-image15.png)
+	![](../images/dp500-improve-query-performance-with-dual-storage-mode-image15.png)
 
 	*The warning informs you that it might take considerable time for Power BI Desktop to import data into the model tables.*
 
 7. In the model diagram, notice the striped bar across the top of each dimension table.
 
-	![](images/dp500-improve-query-performance-with-dual-storage-mode-image16.png)
+	![](../images/dp500-improve-query-performance-with-dual-storage-mode-image16.png)
 
 	*A striped bar indicates dual storage mode.*
 
@@ -146,15 +146,15 @@ In this task, you will review the pre-developed report.
 
 1. Switch to **Report** view.
 
-	![](images/dp500-improve-query-performance-with-dual-storage-mode-image17.png)
+	![](../images/dp500-improve-query-performance-with-dual-storage-mode-image17.png)
 
 2. In the **Performance analyzer** pane, select **Clear**.
 
-	![](images/dp500-improve-query-performance-with-dual-storage-mode-image18.png)
+	![](../images/dp500-improve-query-performance-with-dual-storage-mode-image18.png)
 
 3. Refresh the visuals.
 
-	![](images/dp500-improve-query-performance-with-dual-storage-mode-image19.png)
+	![](../images/dp500-improve-query-performance-with-dual-storage-mode-image19.png)
 
 4. Notice that the slicer visual no longer uses a direct query connection.
 
@@ -166,11 +166,11 @@ In this task, you will review the pre-developed report.
 
 6. Select the column chart visuals, and then in the **Visualizations** pane, from inside the **Values** well, remove the **Sales Amount** field.
 
-	![](images/dp500-improve-query-performance-with-dual-storage-mode-image20.png)
+	![](../images/dp500-improve-query-performance-with-dual-storage-mode-image20.png)
 
 7. Also remove the two fields from the **Tooltips** well.
 
-	![](images/dp500-improve-query-performance-with-dual-storage-mode-image21.png)
+	![](../images/dp500-improve-query-performance-with-dual-storage-mode-image21.png)
 
 	*Both of these measures depend on the **Sales Amount** column.*
 
@@ -188,6 +188,6 @@ In this task, you will finish up.
 
 1. Save the Power BI Desktop file.
 
-	![](images/dp500-improve-query-performance-with-dual-storage-mode-image22.png)
+	![](../images/dp500-improve-query-performance-with-dual-storage-mode-image22.png)
 
 2. Close Power BI Desktop.
