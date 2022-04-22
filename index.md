@@ -5,7 +5,7 @@ layout: home
 ---
 # Instructions
 
-Together with your partner, test each of the labs below and provide feedback via a GitHub **issue** or **pull request**. If you are unfamiliar with GitHub, log an **issue**, where you'll describe the issue you are seeing in the lab.
+Together with your partner, test each of the labs below and provide feedback via a GitHub **[issue](https://github.com/shannonlindsay/Data-AI-Dev/issues/new)** or **[pull request](https://github.com/shannonlindsay/Data-AI-Dev/pulls)**. If you are less familiar with GitHub, log an **issue**, where you'll describe the issue you are seeing in the lab.
 
 # Content Directory
 
