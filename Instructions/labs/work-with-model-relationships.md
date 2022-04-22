@@ -261,7 +261,15 @@ In this task, you will create a query to add another date table to the model.
 
 1. On the **Home** ribbon tab, from inside the **Queries** group, select the **Transform data** icon.
 
-	![](../images/dp500-work-with-model-relationships-image33.png)  
+	![](../images/dp500-work-with-model-relationships-image33.png) 
+
+	*If you are prompted to specify how to connect, **Edit Credentials** and specify how to sign-in.*
+
+	![](../images/dp500-work-with-model-relationships-image52.png)
+
+	*Select **Connect***
+
+	 ![](../images/dp500-work-with-model-relationships-image53.png)
  
 2. In the **Power Query Editor** window, in the **Queries** pane (located at the left), right-click the **Date** query, and then select **Reference**.
 
