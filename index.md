@@ -36,10 +36,10 @@ There are three lab environments for this course. The links below will take you 
     - Monitor data in real-time with Power BI
     - Use tools to optimize Power BI performance
     - Work with model relationships
-2.	Labs that require Azure Synapse Analytics (2 labs, [lab profile 111889](https://labondemand.com/AuthenticatedLaunch/111889?providerId=1))
+2.	Labs that also require Azure Synapse Analytics (2 labs, [lab profile 111889](https://labondemand.com/AuthenticatedLaunch/111889?providerId=1))
     - Create a star schema model
     - Create a dataflow
-3.	Labs that require Azure SQL Database (1 lab, [lab profile 119734](https://labondemand.com/AuthenticatedLaunch/119734?providerId=1))
+3.	Labs that also require Azure SQL Database (1 lab, [lab profile 119734](https://labondemand.com/AuthenticatedLaunch/119734?providerId=1))
     - Improve query performance with hybrid tables
 
 ## Labs
