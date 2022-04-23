@@ -11,9 +11,12 @@ Please look at the [other issues](https://github.com/shannonlindsay/Data-AI-Dev/
 
 # Content Directory
 
-Hyperlinks to each of the lab exercises and lab environments are listed below.
+Hyperlinks to each of the lab exercises and lab environments are listed below. Log in to the lab environment with your Microsoft credentials. Please let me know ASAP in the Teams chat if you're having any issues with access.
 
-For testing, lab instructions will **not** be in the VM. Access the lab instructions here in GitHub.
+>**Note: 
+>Logging in to the VM requires dual factor authentication. Have your device nearby!
+
+For this week's testing, lab instructions will **not** be in the VM. Access the lab instructions here in GitHub. For labs that require Azure services (Azure SQL DB or Azure Synapse Analytics), login/subscription information can be found on the resources tab in the VM. The labs that require Azure services take longer to start, as there are scripts loading resources in the background. Allow ~5 minutes for the **Improve performance with hybrid tables** lab to start and ~10 minutes for the **Create a star schema model** and **Create a dataflow** labs to start.
 
 ## Labs
 
