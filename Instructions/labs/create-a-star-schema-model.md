@@ -72,8 +72,11 @@ In this task, you will set up Power BI Desktop.
 3. At the top-right corner of Power BI Desktop, if you're not already signed in, select **Sign In**. Use the lab credentials to complete the sign in process.
 
 	![](../images/dp500-create-a-star-schema-model-image3.png)
+4. You will be redirected to the Power BI sign-up page in Microsoft Edge. Select **Continue** to complete the sign up.
 
-4. Close Power BI Desktop.
+	![](../images/dp500-create-a-star-schema-model-image3b.png)
+
+5. Close Power BI Desktop.
 
 	*You will open Power BI Desktop again in the next exercise.*
 
