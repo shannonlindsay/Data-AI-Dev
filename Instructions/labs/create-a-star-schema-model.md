@@ -57,9 +57,9 @@ In this exercise, prepare your environment.
 8. After creating the Synapse workspace and SQL Pool and loading the data, the script pauses the pool to prevent unnecessary Azure charges. When you're ready to work with your data in Azure Synapse Analytics, you'll need to resume the SQL Pool.
 
 
-### Set up Power BI Desktop
+### Set up Power BI
 
-In this task, you will set up Power BI Desktop.
+In this task, you will set up Power BI.
 
 1. To open Power BI Desktop, on the taskbar, select the **Power BI Desktop** shortcut.
 
@@ -76,7 +76,30 @@ In this task, you will set up Power BI Desktop.
 
 	![](../images/dp500-create-a-star-schema-model-image3b.png)
 
-5. Close Power BI Desktop.
+5. Enter a 10 digit phone number and select **Get started**. Select **Get started** once more. You will be redirected to Power BI.
+
+1. At the top-right, select the profile icon, and then select **Start trial**.
+
+	![](../images/dp500-create-a-dataflow-image3.png)
+
+1. When prompted, select **Start trial**.
+
+	![](../images/dp500-create-a-dataflow-image4.png)
+
+1. Do any remaining tasks to complete the trial setup.
+
+	*Tip: The Power BI web browser experience is known as the **Power BI service**.*
+1. Select Workspaces and **Create a Workspace**.
+    
+    ![](../images/dp500-create-a-star-schema-model-image2a.png)
+
+1. Create a workspace named DP500 labs and select **Save**.
+
+    ![](../images/dp500-create-a-star-schema-model-image2b.png)
+
+1. Navigate back to Power BI Desktop. Sign-in again using the credentials provided on the Resources tab of the lab environment.
+
+1. Close Power BI Desktop. Do not save your file.
 
 	*You will open Power BI Desktop again in the next exercise.*
 
@@ -84,17 +107,37 @@ In this task, you will set up Power BI Desktop.
 
 In this task, you will start the SQL pool.
 
-1. In a web browser, go to [https://portal.azure.com](https://portal.azure.com/).
+1. In a Microsoft Edge, go to [https://portal.azure.com](https://portal.azure.com/).
 
-2. Use the lab credentials to complete the sign in process.
+1. Use the lab credentials to complete the sign in process.
 
-3. Locate the SQL pool.
+1. Select **Azure Synapse Analytics** from Azure services. Select your Synapse workspace.
 
-4. Resume the SQL pool.
+   ![](../images/dp500-create-a-star-schema-model-image3c.png)
 
-	TODO: Provide an image
+1. Locate and select the dedicated SQL pool.
+
+   ![](../images/dp500-create-a-star-schema-model-image3d.png)
+
+1. Resume the SQL pool.
+
+	![](../images/dp500-create-a-star-schema-model-image3e.png)
 
 	*Important: The SQL pool is a costly resource. Please limit the use of this resource when working on this lab. The final task in this lab will instruct you to pause the resource.*
+
+### Link your Power BI workspace to Azure Synapse Analytics
+
+In this task you will link your existing Power BI workspace to your Azure Synapse Analytics workspace.
+
+1. On the home page of Azure Synapse Studio, select **Visualize** to link your Power BI workspace.
+
+	![](../images/dp500-create-a-star-schema-model-image3f.png)
+
+2. From the **Workspace name** dropdown, select the workspace you created in the previous task and select **Create**.
+
+	![](../images/dp500-create-a-star-schema-model-image3g.png)
+
+    ![](../images/dp500-create-a-star-schema-model-image3h.png)
 
 ## Develop a data model
 
@@ -104,7 +147,8 @@ In this exercise, you will develop a DirectQuery model to support Power BI analy
 
 In this task, you will download a Power BI data source file from Synapse Studio.
 
-1. In a web browser, navigate to **Synapse Studio**.
+1. In Microsoft Edge, navigate to **Synapse Studio**.
+    ![](../images/dp500-create-a-star-schema-model-image4a.png)
 
 2. At the left, select the **Develop** hub.
 
@@ -122,7 +166,7 @@ In this task, you will download a Power BI data source file from Synapse Studio.
 
 	![](../images/dp500-create-a-star-schema-model-image7.png)
 
-6. Select your SQL pool, possibly named **SQLPool01**, and then select **Continue**.
+6. Select your SQL pool, **sqldw**, and then select **Continue**.
 
 	![](../images/dp500-create-a-star-schema-model-image8.png)
 
@@ -146,7 +190,7 @@ In this task, you will create five Power Query queries that will each load as a 
 
 2. Select **Sign In**.
 
-3. Sign in using the lab Azure credentials.
+3. Sign in using the lab Azure credentials located on the Resources tab.
 
 4. Select **Connect**.
 
