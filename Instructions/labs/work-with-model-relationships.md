@@ -2,6 +2,7 @@
 lab:
     title: 'Work with model relationships'
     module: 'Work with model relationships'
+    labprofile: 'https://labondemand.com/AuthenticatedLaunch/117782?providerId=1'
 ---
 
 # Work with model relationships

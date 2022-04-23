@@ -2,6 +2,7 @@
 lab:
     title: 'Create a paginated report'
     module: 'Create a paginated report'
+    labprofile: 'https://labondemand.com/AuthenticatedLaunch/117782?providerId=1'
 ---
 
 # Create a paginated report

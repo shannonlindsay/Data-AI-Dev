@@ -2,6 +2,7 @@
 lab:
     title: 'Improve query performance with dual storage mode'
     module: 'Improve query performance with dual storage mode'
+    labprofile: 'https://labondemand.com/AuthenticatedLaunch/117782?providerId=1'
 ---
 
 # Improve query performance with dual storage mode

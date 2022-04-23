@@ -1,9 +1,11 @@
+<!---
 ---
 lab:
     title: 'Explore data using Spark Notebooks'
     module: 'Explore data using Spark Notebooks'
+    labprofile: ''
 ---
-
+-->
 ## Overview
 
 The estimated time to complete the lab is 30 minutes.

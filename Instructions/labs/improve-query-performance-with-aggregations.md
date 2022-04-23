@@ -2,6 +2,7 @@
 lab:
     title: 'Improve query performance with aggregations'
     module: 'Improve query performance with aggregations'
+	labprofile: 'https://labondemand.com/AuthenticatedLaunch/117782?providerId=1'
 ---
 
 # Improve query performance with aggregations

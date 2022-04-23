@@ -2,6 +2,7 @@
 lab:
     title: 'Enforce model security'
     module: 'Enforce model security'
+	labprofile: 'https://labondemand.com/AuthenticatedLaunch/117782?providerId=1'
 ---
 
 # Enforce model security

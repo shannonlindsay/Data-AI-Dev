@@ -2,6 +2,7 @@
 lab:
     title: 'Create a dataflow'
     module: 'Create a dataflow'
+    labprofile: 'https://labondemand.com/AuthenticatedLaunch/111889?providerId=1'
 ---
 
 # Create a dataflow
