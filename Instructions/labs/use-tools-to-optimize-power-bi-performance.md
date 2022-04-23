@@ -2,6 +2,7 @@
 lab:
     title: 'Use tools to optimize Power BI performance'
     module: 'Use tools to optimize Power BI performance'
+    labprofile: 'https://labondemand.com/AuthenticatedLaunch/117782?providerId=1'
 ---
 
 # Use tools to optimize Power BI performance

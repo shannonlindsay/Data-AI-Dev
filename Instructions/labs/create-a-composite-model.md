@@ -2,6 +2,7 @@
 lab:
     title: 'Create a composite model'
     module: 'Create a composite model'
+    labprofile: 'https://labondemand.com/AuthenticatedLaunch/117782?providerId=1'
 ---
 
 # Create a composite model
