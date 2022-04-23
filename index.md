@@ -25,9 +25,22 @@ Allow ~5 minutes for the **Improve performance with hybrid tables** lab to start
 
 There are three lab environments for this course. The links below will take you to the correct environment, but it may be useful to know when splitting up the labs between you and your partner.
 
-1. Labs that require Power BI only (10 labs, lab profile 117782)
-2. Labs that require Azure Synapse Analytics (2 labs, lab profile 111889)
-3. Labs that require Azure SQL Database (1 lab, lab profile 119734)
+1.	Labs that require Power BI only (10 labs, lab profile 117782)
+    - Create a composite model
+    - Create a paginated report
+    - Create calculation groups
+    - Create reusable Power BI artifacts
+    - Enforce model security
+    - Improve query performance with aggregations
+    - Improve query performance with dual storage mode
+    - Monitor data in real-time with Power BI
+    - Use tools to optimize Power BI performance
+    - Work with model relationships
+2.	Labs that require Azure Synapse Analytics (2 labs, lab profile 111889)
+    - Create a star schema model
+    - Create a dataflow
+3.	Labs that require Azure SQL Database (1 lab, lab profile 119734)
+    - Improve query performance with hybrid tables
 
 ## Labs
 
