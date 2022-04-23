@@ -13,7 +13,7 @@ Please look at the [other issues](https://github.com/shannonlindsay/Data-AI-Dev/
 
 # Content Directory
 
-Hyperlinks to each of the lab exercises and lab environments are listed below. Log in to the lab environment with your Microsoft credentials. Please let me know ASAP in the Teams chat if you're having any issues with access. For this week's testing, lab instructions will **not** be in the VM. **Access the lab instructions here in GitHub** using the hyperlinks below.
+Hyperlinks to each of the lab exercises and lab environments are listed below. Log in to the lab environment with your Microsoft credentials. Please let me know ASAP in the Teams chat if you're having any issues with access. For this week's testing, lab instructions are available in the instructions pane on the VM and via GitHub using the hyperlinks below.
 
 >**Note**: Logging in to the VM requires dual factor authentication. Have your device nearby!
 
@@ -21,7 +21,13 @@ For labs that require Azure services (Azure SQL DB or Azure Synapse Analytics), 
 
 ![Resources tab of VM containing subscription information. Pane on right side of screen with blue header.](https://user-images.githubusercontent.com/77289548/164934166-41296702-01b7-484b-ac23-1c9a23e7f1da.png)
 
-Allow ~5 minutes for the **Improve performance with hybrid tables** lab to start. Also be aware that for the **Create a star schema model** and **Create a dataflow** labs, you need to run a script to load data that will take ~15 minutes.
+Allow ~5 minutes for the **Improve performance with hybrid tables** lab to start. Also be aware that for the **Create a star schema model** and **Create a dataflow** labs, you need to run a script to load data that will take ~20 minutes.
+
+There are three lab environments for this course. The links below will take you to the correct environment, but it may be useful to know when splitting up the labs between you and your partner.
+
+1. Labs that require Power BI only (10 labs, lab profile 117782)
+2. Labs that require Azure Synapse Analytics (2 labs, lab profile 111889)
+3. Labs that require Azure SQL Database (1 lab, lab profile 119734)
 
 ## Labs
 
