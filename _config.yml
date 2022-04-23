@@ -13,6 +13,7 @@ plugins:
   - jemoji
 markdown: kramdown
 kramdown:
+   input: Kramdown
    syntax_highlighter_opts:
       disable : true
 
