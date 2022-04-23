@@ -4,7 +4,7 @@ lab:
     module: 'Monitor data in real time'
 ---
 
-# DP500: Monitor data in real time
+# Monitor data in real time
 
 ## Overview
 

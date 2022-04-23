@@ -4,7 +4,7 @@ lab:
     module: 'Work with model relationships'
 ---
 
-# DP500: Work with model relationships
+# Work with model relationships
 
 ## Overview
 

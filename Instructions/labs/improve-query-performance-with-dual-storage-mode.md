@@ -4,7 +4,7 @@ lab:
     module: 'Improve query performance with dual storage mode'
 ---
 
-# DP500: Improve query performance with dual storage mode
+# Improve query performance with dual storage mode
 
 ## Overview
 

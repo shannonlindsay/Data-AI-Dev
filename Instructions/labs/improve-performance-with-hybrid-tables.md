@@ -4,7 +4,7 @@ lab:
     module: 'Improve performance with hybrid tables'
 ---
 
-# DP500: Improve performance with hybrid tables
+# Improve performance with hybrid tables
 
 ## Overview
 
