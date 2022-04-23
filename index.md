@@ -11,7 +11,9 @@ Please look at the [other issues](https://github.com/shannonlindsay/Data-AI-Dev/
 
 # Content Directory
 
-Hyperlinks to each of the lab exercises and demos are listed below.
+Hyperlinks to each of the lab exercises and lab environments are listed below.
+
+For testing, lab instructions will **not** be in the VM. Access the lab instructions here in GitHub.
 
 ## Labs
 
