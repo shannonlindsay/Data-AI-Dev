@@ -127,7 +127,9 @@ In this task, you will open a pre-developed Power BI Desktop solution, set the d
 
 	![](../images/dp500-improve-performance-with-hybrid-tables-image15.png)
 
-6. In the **SQL Server database** window, in the **Server** box, replace the text with the lab Azure SQL Database server.
+6. In the **SQL Server database** window, in the **Server** box, replace the text with the lab Azure SQL Database server. This is located in the Azure portal, SQL databases.
+
+    ![](../images/dp500-improve-performance-with-hybrid-tables-image15a.png)
 
 7. Select **OK**.
 
