@@ -143,9 +143,9 @@ In this task, you will open a pre-developed Power BI Desktop solution, set the d
 
 	![](../images/dp500-improve-performance-with-hybrid-tables-image18.png)
 
-10. In the **SQL Server database** window, TBC
+10. In the **SQL Server database** window, enter the username and password from the Rescources tab of the VM, under Resource Group.
 
-	TODO: Screenshot
+	![](../images/dp500-improve-performance-with-hybrid-tables-image15b.png)
 
 11. Select **OK**.
 
