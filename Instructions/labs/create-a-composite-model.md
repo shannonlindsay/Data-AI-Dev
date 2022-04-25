@@ -27,7 +27,7 @@ In this exercise, you will prepare your environment.
 
 ### Set up Power BI Desktop
 
-In this task, you will open a pre-developed Power BI Desktop solution.
+In this task, you will open a pre-developed Power BI template file.
 
 1. To open File Explorer, on the taskbar, select the **File Explorer** shortcut.
 
@@ -35,17 +35,25 @@ In this task, you will open a pre-developed Power BI Desktop solution.
 
 1. Go to the **D:\DP500\Create a composite model\Starter** folder.
 
-1. To open a pre-developed Power BI Desktop file, double-click the **Sales Analysis - Create a composite model.pbix** file.
+1. To open a pre-developed Power BI Desktop file, double-click the **Sales Analysis - Create a composite model.pbit** file. 
 
-1. If prompted to connect to the database, select **Save**.
+1. If prompted to approve a potential security risk, select **OK**.
 
-    ![](../images/dp500-create-a-composite-model-image2.png)
+1. Enter the SQLServerInstance, SqlServerDatabase, and Culture. Select **Load**.
 
-1. If prompted about encryption support, select **OK**.
+    SqlServerInstance = ```localhost```
+
+    SqlServerDatabase = ```AdventureWorksDW2022-DP500```
+
+    Culture = ```en```
 
     ![](../images/dp500-create-a-composite-model-image3.png)
 
-1. To save the file, on the **File** ribbon tab, select **Save as**.
+1. In the Encryption Support window, select **OK**.
+
+1. In the Native Database Query window, select **Run**.
+
+1. Save the file. On the **File** ribbon tab, select **Save as**.
 
 1. In the **Save As** window, go to the **D:\DP500\Create a composite model\MySolution** folder.
 
