@@ -24,7 +24,7 @@ In this exercise, you'll use a combination of a PowerShell script and an ARM tem
 1. Sign into the [Azure portal](https://portal.azure.com).
 2. Use the **[\>_]** button to the right of the search bar at the top of the page to create a new Cloud Shell in the Azure portal, selecting a ***PowerShell*** environment and creating storage if prompted. The cloud shell provides a command line interface in a pane at the bottom of the Azure portal, as shown here:
 
-    ![Azure portal with a cloud shell pane](./images/cloud-shell.png)
+    ![Azure portal with a cloud shell pane](.../images/cloud-shell.png)
 
     > **Note**: If you have previously created a cloud shell that uses a *Bash* environment, use the the drop-down menu at the top left of the cloud shell pane to change it to ***PowerShell***.
 
@@ -224,11 +224,11 @@ Now that you've explored various ways to query files in the data lake by using S
 4. In the **Results** pane, select **Chart** and view the chart that is created for you; which should be a line chart.
 5. Change the **Category column** to **OrderYear** so that the line chart shows the revenue trend over the three year period from 2019 to 2021:
 
-    ![A line chart showing revenue by year](./images/yearly-sales-line.png)
+    ![A line chart showing revenue by year](../images/yearly-sales-line.png)
 
 6. Switch the **Chart type** to **Column** to see the yearly revenue as a column chart:
 
-    ![A column chart showing revenue by year](./images/yearly-sales-column.png)
+    ![A column chart showing revenue by year](../images/yearly-sales-column.png)
 
 7. Experiment with the charting functionality in the query editor. It offers some basic charting capabilities that you can use while interactively exploring data, and you can save charts as images to include in reports. However, functionality is limited compared to enterprise data visualization tools such as Microsoft Power BI.
 
@@ -238,8 +238,8 @@ If you've finished exploring Azure Synapse Analytics, you should delete the reso
 
 1. Close the Synapse Studio browser tab and return to the Azure portal.
 2. On the Azure portal, on the **Home** page, select **Resource groups**.
-3. Select the **dp000-*xxxxxxx*** resource group for your Synapse Analytics workspace (not the managed resource group), and verify that it contains the Synapse workspace and storage account for your workspace.
+3. Select the **dp500-*xxxxxxx*** resource group for your Synapse Analytics workspace (not the managed resource group), and verify that it contains the Synapse workspace and storage account for your workspace.
 4. At the top of the **Overview** page for your resource group, select **Delete resource group**.
-5. Enter the **dp000-*xxxxxxx*** resource group name to confirm you want to delete it, and select **Delete**.
+5. Enter the **dp500-*xxxxxxx*** resource group name to confirm you want to delete it, and select **Delete**.
 
     After a few minutes, your Azure Synapse workspace and the managed workspace associated with it will be deleted.
