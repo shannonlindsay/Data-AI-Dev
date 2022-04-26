@@ -1,7 +1,7 @@
 ---
 lab:
     title: 'Analyze data in a data lake with Spark'
-    module: 'Module 2: Analyze data in a data lake'
+    module: 'Analyze data in a data lake'
     labprofile: 'https://labondemand.com/AuthenticatedLaunch/111889?providerId=1'
 ---
 
