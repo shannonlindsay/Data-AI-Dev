@@ -49,6 +49,8 @@ In this task, you will open a pre-developed Power BI template file.
 
     ![](../images/dp500-create-a-composite-model-image3.png)
 
+1. In the SQL server database connection prompt, select **Connect**.
+
 1. In the Encryption Support window, select **OK**.
 
 1. In the Native Database Query window, select **Run**.
