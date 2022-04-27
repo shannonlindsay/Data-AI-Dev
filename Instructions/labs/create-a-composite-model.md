@@ -39,7 +39,7 @@ In this task, you will open a pre-developed Power BI template file.
 
 1. If prompted to approve a potential security risk, select **OK**.
 
-1. Enter the SQLServerInstance, SqlServerDatabase, and Culture. Select **Load**.
+1. Enter the SQLServerInstance, SqlServerDatabase, and Culture as provided below. Select **Load**.
 
     SqlServerInstance = ```localhost```
 
