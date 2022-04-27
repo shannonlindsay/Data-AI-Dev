@@ -153,13 +153,13 @@ The **DataFrame** object in Spark is similar to a Pandas dataframe in Python, an
 3. Modify the code as follows:
 
     ```Python
-    customers = df.select("CustomerName", "Email").where(df['Item']=='Road-150 Red, 52')
+    customers = df.select("CustomerName", "Email").where(df['Item']=='Road-250 Red, 52')
     print(customers.count())
     print(customers.distinct().count())
     display(customers.distinct())
     ```
 
-4. Run the modified code to view the customers who have purchased the *Road-150 Red, 52* product. Note that you can "chain" multiple functions together so that the output of one function becomes the input for the next - in this case, the DataFrame created by the **select** method is the source DataFrame for the **where** method that is used to apply filtering criteria.
+4. Run the modified code to view the customers who have purchased the *Road-250 Red, 52* product. Note that you can "chain" multiple functions together so that the output of one function becomes the input for the next - in this case, the DataFrame created by the **select** method is the source DataFrame for the **where** method that is used to apply filtering criteria.
 
 ### Aggregate and group data in a DataFrame
 
