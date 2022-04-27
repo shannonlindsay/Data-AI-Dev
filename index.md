@@ -5,7 +5,7 @@ layout: home
 ---
 # Instructions
 
-Work with your partner to split up and test the labs in any way you see fit. What is important is that between the two of you, all 13 labs are tested. **Please complete all testing by 4pm PST on Friday, April 29**. This deadline is important as the lab environments are only live until this date/time.
+Work with your partner to split up and test the labs in any way you see fit. What is important is that between the two of you, all 15 labs are tested. **Please complete all testing by 4pm PST on Friday, April 29**. This deadline is important as the lab environments are only live until this date/time.
 
 Together with your partner, test each of the labs below and provide feedback via a GitHub **[issue](https://github.com/shannonlindsay/Data-AI-Dev/issues/new)** or **[pull request](https://github.com/shannonlindsay/Data-AI-Dev/pulls)**. If you are less familiar with GitHub, log an **issue**, where you'll describe the issue you are seeing in the lab.
 
