@@ -25,49 +25,60 @@ In this exercise, you will install Tabular Editor 2 and load Best Practice Analy
 
 *BPA is a free third-party tool that notifies you of potential modeling missteps or changes that you can make to improve your model design and performance. It includes recommendations for naming, user experience, and common optimizations that you can apply to improve performance. For more information, see [Best practice rules to improve your model's performance](https://powerbi.microsoft.com/blog/best-practice-rules-to-improve-your-models-performance/).*
 
-### Install Tabular Editor 2
 
-In this task, you will install Tabular Editor 2.
+### Download and Install Tabular Editor 2
 
-*Important: If you have already installed Tabular Editor 2 in your virtual machine (VM) environment, continue to the next task.*
+Download and install Tabular Editor 2 to enable the creation of calculation groups.
+
+**Important:** *If you have already installed Tabular Editor 2 in your VM
+environment, continue to the next task.*
 
 *Tabular Editor is an editor alternative tool for authoring tabular models for Analysis Services and Power BI. Tabular Editor 2 is an open source project that can edit a BIM file without accessing any data in the model.*
 
-1. Ensure Power BI Desktop is closed.
+1.  Ensure Power BI Desktop is closed.
 
-2. To open File Explorer, on the taskbar, select the **File Explorer** shortcut.
+1.  In Microsoft Edge, navigate to the Tabular Editor Release page.
 
-	![](../images/dp500-use-tools-to-optimize-power-bi-performance-image1.png)
+    ```https://github.com/TabularEditor/TabularEditor/releases```
+    
+1. Scroll down to the **Assets** section and select the **TabularEditor.Installer.msi** file. This will initiate the file install.
 
-3. In File Explorer, go to **D:\DP500\Software**.
+1. Upon completion, select **Open file** to run the installer.
 
-4. To install Tabular Editor, double-click the **TabularEditor.Installer.msi** file.
+    ![Graphical user interface, application Description automatically generated](../images/calculationgroups-downloadTE.png)
 
-5. In the Tabular Editor installer window, select **Next**.
+1.  In the Tabular Editor installer window, select **Next**.
 
-	![](../images/dp500-use-tools-to-optimize-power-bi-performance-image2.png)
+    ![Graphical user interface, application Description automatically
+    generated](../images/image2.png)
 
-6. At the **License Agreement** step, if you agree, select **I agree**, and then select **Next**.
+1.  At the **License Agreement** step, if you agree, select **I agree**, and then select **Next**.
 
-	![](../images/dp500-use-tools-to-optimize-power-bi-performance-image3.png)
+    ![Graphical user interface, application Description automatically
+    generated](../images/image3.png)
 
-7. At the **Select Installation Folder** step, select **Next**.
+1.  At the **Select Installation Folder** step, select **Next**.
 
-	![](../images/dp500-use-tools-to-optimize-power-bi-performance-image4.png)
+    ![Shape Description automatically generated with medium
+    confidence](../images/image4.png)
 
-8. At the **Application Shortcuts** step, select **Next**.
+1.  At the **Application Shortcuts** step, select **Next**.
 
-	![](../images/dp500-use-tools-to-optimize-power-bi-performance-image5.png)
+    ![Shape Description automatically generated with medium
+    confidence](../images/image4.png)
 
-9. At the **Confirm Installation** step, select **Next**.
+1.  At the **Confirm Installation** step, select **Next**.
 
-	![](../images/dp500-use-tools-to-optimize-power-bi-performance-image6.png)
+    ![Shape Description automatically generated with medium
+    confidence](../images/image4.png)
 
-10. When the installation is complete, select **Close**.
+1. When the installation is complete, select **Close**.
 
-	![](../images/dp500-use-tools-to-optimize-power-bi-performance-image7.png)
+    ![A picture containing shape Description automatically
+    generated](../images/image5.png)
 
-	*Tabular Editor is now installed and registered as a Power BI Desktop external tool.*
+    *Tabular Editor is now installed and registered as a Power BI Desktop
+    external tool.*
 
 ### Set up Power BI Desktop
 
@@ -266,35 +277,66 @@ In this task, you will open BPA and review the results of the checks.
 
 ## Use DAX Studio
 
-In this exercise, you will install DAX Studio.
+Download and install DAX Studio.
 
 *According to its website, DAX Studio is "the ultimate tool for executing and analyzing DAX queries against Microsoft Tabular models." It's a feature-rich tool for DAX authoring, diagnosis, performance tuning, and analysis. Features include object browsing, integrated tracing, query execution breakdowns with detailed statistics, DAX syntax highlighting and formatting.*
 
-### Open DAX Studio
+### Download DAX Studio
 
-In this task, you will open DAX Studio.
+In this task, you will download DAX Studio.
 
-1. In File Explorer, go to **D:\DP500\Software**.
+Download and install DAX studio to optimize DAX queries.
 
-2. Unzip the **DaxStudio_2_17_3_portable.zip** file.
+1.  In Microsoft Edge, navigate to the DAX Studio downloads page.
 
-3. Open the **DaxStudio_2_17_3_portable** folder.
+    ```https://daxstudio.org/downloads/```
+    
+1. Select **DAX Studio v.2.x.x (installer)** - this will initiate the file install.
+    *note: The version of DAX studio will change slightly over time. Download the latest release.*
 
-4. Run **DaxStudio.exe**.
+1. Upon completion, select **Open file** to run the installer.
 
-5. In the **Connect** window, select the **PBI / SSDT Model** option.
+    ![Graphical user interface, application Description automatically generated](../images/dp500-use-tools-to-optimize-power-bi-performance-image31b.png)
 
-6. In the corresponding dropdown list, ensure the **Sales Analysis - Use tools to optimize Power BI performance** model is selected.
+1.  In the DAX Studio installer window, select **Install for all users (recommended)**.
+
+1. In the User Account Control window, select Yes to allow the app to make changes to the device.
+
+    ![Graphical user interface, application Description automatically generated](../images/dp500-use-tools-to-optimize-power-bi-performance-image31c.png)
+
+1.  At the **License Agreement** step, if you accept the license terms, select **I accept the agreement**, and then select **Next**.
+
+    ![Graphical user interface, application Description automatically
+    generated](../images/dp500-use-tools-to-optimize-power-bi-performance-image31d.png)
+
+1. Select **Next** to use the default destination location.
+1. Select **Next** to select the default components to install.
+1. Select **Next** to place the shortcut on the default start menu folder.
+1. Select **Create a desktop shortcut** and select next.
+
+    ![Graphical user interface, application Description automatically
+    generated](../images/dp500-use-tools-to-optimize-power-bi-performance-image31e.png)
+1. Select **Install**.
+
+1. Upon completion, with **Launch DAX Studio** selected, select **Finish**. This will open DAX Studio.
+    ![Graphical user interface, application Description automatically
+    generated](../images/dp500-use-tools-to-optimize-power-bi-performance-image31f.png)
+
+1. In the **Connect** window, select the **PBI / SSDT Model** option.
+
+1. In the corresponding dropdown list, ensure the **Sales Analysis - Use tools to optimize Power BI performance** model is selected.
 
 	![](../images/dp500-use-tools-to-optimize-power-bi-performance-image30.png)
 
-7. Select **Connect**.
+    *If you do not have the **Sales Analysis - Use tools to optimize Power BI performance** starter file open, you will not be able to connect. Be sure the file is open.*
+
+1. Select **Connect**.
 
 	![](../images/dp500-use-tools-to-optimize-power-bi-performance-image31.png)
 
-8. If necessary, maximize the DAX Studio window.
+1. If necessary, maximize the DAX Studio window.
 
-### Optimize a query
+### Use DAX studio to optimize a query
 
 In this task, you will optimize a query by using an improved measure formula.
 
