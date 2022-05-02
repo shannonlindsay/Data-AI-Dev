@@ -39,11 +39,13 @@ In this task, you will open a pre-developed Power BI Desktop solution.
 
 	![](../images/dp500-improve-query-performance-with-dual-storage-mode-image2.png)
 
-5. To save the file, on the **File** ribbon tab, select **Save as**.
+5. If prompted to approve running a Native Database Query, select **Run**.
 
-6. In the **Save As** window, go to the **D:\DP500\Improve query performance with dual storage mode\MySolution** folder.
+6. To save the file, on the **File** ribbon tab, select **Save as**.
 
-7. Select **Save**.
+7. In the **Save As** window, go to the **D:\DP500\Improve query performance with dual storage mode\MySolution** folder.
+
+8. Select **Save**.
 
 ### Review the report
 
