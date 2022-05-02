@@ -66,10 +66,12 @@ can edit a BIM file without accessing any data in the model.*
     ![Shape Description automatically generated with medium
     confidence](../images/image4.png)
 
-1.  At the **Confirm Installation** step, select **Next**.
+1. At the **Confirm Installation** step, select **Next**.
 
     ![Shape Description automatically generated with medium
     confidence](../images/image4.png)
+
+1. If you get a **User Account Control** popup window, select **Yes.**
 
 1. When the installation is complete, select **Close**.
 
