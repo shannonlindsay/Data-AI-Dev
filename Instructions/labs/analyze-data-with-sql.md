@@ -30,19 +30,15 @@ In this exercise, you'll use a combination of a PowerShell script and an ARM tem
 
 3. Note that you can resize the cloud shell by dragging the separator bar at the top of the pane, or by using the **&#8212;**, **&#9723;**, and **X** icons at the top right of the pane to minimize, maximize, and close the pane. For more information about using the Azure Cloud Shell, see the [Azure Cloud Shell documentation](https://docs.microsoft.com/azure/cloud-shell/overview).
 
-4. In the PowerShell pane, enter the following commands to clone this repo:
-
-    ```
+4. In the PowerShell pane, enter the following commands to clone this repo. Copy and paste the following syntax:
+    
     rm -r dp-000 -f
     git clone https://github.com/GraemeMalcolm/data-engineer dp-000
-    ```
+    
+5. After the repo has been cloned, copy and paste the following commands to change to the folder for this lab and run the **setup.ps1** script it contains:
 
-5. After the repo has been cloned, enter the following commands to change to the folder for this lab and run the **setup.ps1** script it contains:
-
-    ```
     cd dp-000/Allfiles/Labs/02
     ./setup.ps1
-    ```
 
 6. When prompted, enter a suitable password to be set for your Azure Synapse SQL pool.
 
