@@ -97,7 +97,9 @@ In this task, you will set up Power BI.
 
     ![](../images/dp500-create-a-star-schema-model-image2b.png)
 
-1. Navigate back to Power BI Desktop. Sign-in again using the credentials provided on the Resources tab of the lab environment.
+1. Navigate back to Power BI Desktop. If you see **Sign in** in the top right corner of the screen, sign-in again using the credentials provided on the Resources tab of the lab environment. If you are already signed in, proceed to the next step.
+
+    <img width="80" alt="image" src="https://user-images.githubusercontent.com/77289548/166337862-538a1900-ec67-44d1-905f-d404c5b0a58a.png">
 
 1. Close Power BI Desktop. Do not save your file.
 
