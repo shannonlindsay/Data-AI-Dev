@@ -314,7 +314,10 @@ groups.*
     change of the selected measure over the prior year.*
 
 14. In the **Properties** pane, set the **Format String Expression** property
-    to: **"0.00%;-0.00%;0.00%"**
+    to: 
+    ```
+    "0.00%;-0.00%;0.00%"
+    ```
 
     Tip: The format string expression is available to copy and paste from the
     **D:\\DP500\\Create calculation groups\\Assets\\Snippets.txt**.
