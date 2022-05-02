@@ -210,11 +210,12 @@ Now you'll create two calculation groups. The first will support time intelligen
 
 ### Create the Time Intelligence calculation group
 
-Use Tabular Editor to create the **Time Intelligence** calculation group. It will simplify the creation of many time-related calculations, including PY (prior year), YoY (year-over-year), and YoY % (year-over-year percentage). The calculation group will allow analyzing any
-measure by using different Time Intelligence calculations.
+Use Tabular Editor to create the **Time Intelligence** calculation group. It will simplify the creation of many time-related calculations, including PY (prior year), YoY (year-over-year), and YoY % (year-over-year percentage). The calculation group will allow analyzing any measure by using different Time Intelligence calculations.
 
 *Power BI Desktop does not support the creation or management of calculation
 groups.*
+
+   > **Tip**: All syntax is available to copy and paste from the D:\DP500\Create calculation groups\Assets\Snippets.txt.
 
 1.  On the **External Tools** ribbon, select **Tabular Editor**.
 
@@ -299,7 +300,7 @@ groups.*
     *The year-over-year (YoY) formula calculates the difference of the selected
     measure of the current year to the prior year.*
 
-13. Create a forth calculation item named **YoY %** by using the following
+13. Create a fourth calculation item named **YoY %** by using the following
     formula:
 
     DAX
