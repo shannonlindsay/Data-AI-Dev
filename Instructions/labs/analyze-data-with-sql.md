@@ -151,7 +151,7 @@ So far, you've used the OPENROWSET function in a SELECT query to retrieve data f
 
 3. Modify the script properties to change its name to **Create Sales DB**, and publish it.
 4. Ensure that the script is connected to the **Built-in** SQL pool and the **master** database, and then run it.
-5. Switch back to the **Data** page and use the **&#8635;** button at the top right of Synapse Studio to refresh the page. Then view the **Workspace** tab in the **Data** pane, where a **SQL database** list is no displayed. Expand this list to verify that the **Sales** database has been created.
+5. Switch back to the **Data** page and use the **&#8635;** button at the top right of Synapse Studio to refresh the page. Then view the **Workspace** tab in the **Data** pane, where a **SQL database** list is displayed. Expand this list to verify that the **Sales** database has been created.
 6. Expand the **Sales** database, its **External Resources** folder, and the **External data sources** folder under that to see the **sales_data** external data source you created.
 7. In the **...** menu for the **Sales** database, select **New SQL script** > **Empty script**. Then in the new script pane, enter and run the following query:
 
