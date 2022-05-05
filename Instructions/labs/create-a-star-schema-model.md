@@ -27,6 +27,8 @@ In this exercise, prepare your environment.
 
 ### Load data into Azure Synapse Analytics
 
+   > **Note**: If you have already loaded data into Azure Synapse Analytics using a git clone, you can skip this task and proceed to **Set up Power BI.**
+
 1. Sign into the [Azure portal](https://portal.azure.com) using the login information located on the Resources tab on the right side of the VM.
 2. Use the **[\>_]** button to the right of the search bar at the top of the page to create a new Cloud Shell in the Azure portal, selecting a ***PowerShell*** environment and creating storage if prompted. The cloud shell provides a command line interface in a pane at the bottom of the Azure portal, as shown here:
 
@@ -97,7 +99,9 @@ In this task, you will set up Power BI.
 
     ![](../images/dp500-create-a-star-schema-model-image2b.png)
 
-1. Navigate back to Power BI Desktop. Sign-in again using the credentials provided on the Resources tab of the lab environment.
+1. Navigate back to Power BI Desktop. If you see **Sign in** in the top right corner of the screen, sign-in again using the credentials provided on the Resources tab of the lab environment. If you are already signed in, proceed to the next step.
+
+    <img width="80" alt="image" src="https://user-images.githubusercontent.com/77289548/166337862-538a1900-ec67-44d1-905f-d404c5b0a58a.png">
 
 1. Close Power BI Desktop. Do not save your file.
 
@@ -128,12 +132,13 @@ In this task, you will start the SQL pool.
 ### Link your Power BI workspace to Azure Synapse Analytics
 
 In this task you will link your existing Power BI workspace to your Azure Synapse Analytics workspace.
+1. From the dedicated SQL pool in the Azure Portal, select **Open in Synapse Studio** from the ribbon.
 
 1. On the home page of Azure Synapse Studio, select **Visualize** to link your Power BI workspace.
 
 	![](../images/dp500-create-a-star-schema-model-image3f.png)
 
-2. From the **Workspace name** dropdown, select the workspace you created in the previous task and select **Create**.
+1. From the **Workspace name** dropdown, select the workspace you created in the previous task and select **Create**.
 
 	![](../images/dp500-create-a-star-schema-model-image3g.png)
 
