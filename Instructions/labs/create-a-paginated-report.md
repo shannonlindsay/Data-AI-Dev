@@ -43,6 +43,8 @@ In this task, you will open Power BI Report Builder to create and then save a re
 
 	![](../images/dp500-create-a-paginated-report-image2.png)
 
+1. If you are prompted to update to the latest version of Power BI report Builder, select **Cancel**.
+
 2. In the Power BI Report Builder window, to create a new report, in the **Getting Started** window, select **Blank Report**.
 
 	![](../images/dp500-create-a-paginated-report-image3.png)
@@ -125,7 +127,7 @@ In this task, you will configure the report header.
 
 	![](../images/dp500-create-a-paginated-report-image12.png)
 
-15. In the **Open** window, navigate to the **D:\DP100\Create a paginated report\Assets** folder, and then select the **AdventureWorksLogo.jpg** file.
+15. In the **Open** window, navigate to the **D:\DP500\Create a paginated report\Assets** folder, and then select the **AdventureWorksLogo.jpg** file.
 
 16. Select **Open**.
 

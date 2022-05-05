@@ -102,11 +102,17 @@ In this task, you will start the SQL pool.
 
 1. Use the lab credentials to complete the sign in process.
 
-1. Locate the SQL pool.
+1. Use the search bar to locate Azure Synapse Analytics. 
 
-1. Resume the SQL pool.
+1. Select the Azure Synapse Analytics instance.
+    ![](../images/synapse-instance.png)
 
-	TODO: Provide an image
+1. Locate and select the dedicated SQL pool.
+    ![](../images/dedicated-sql-pool.png)
+
+1. Resume the dedicated SQL pool.
+
+	![](../images/resume-sql-pool.png)
 
 	*Important: The SQL pool is a costly resource. Please limit the use of this resource when working on this lab. The final task in this lab will instruct you to pause the resource.*
 
@@ -154,13 +160,20 @@ In this task, you will create a dataflow that represents a consistent definition
 
 	*Tip: You can use the Search box (located at the top-right) to help find the data source.*
 
-1. TODO
+1. Enter the Synapse Connection settings.
+     - Enter the Server name from the Azure Portal
+     ![](../images/synapse-sql-pool-connection-string.png)
+     
+        The Server name should look similar to:
+     synapsewsxxxxx.sql.azuresynapse.net
+     - Ensure the Authentication kind is **Organizational account**. If you are prompted to sign in, use the lab provided credentials.
+     ![](../images/synapse-sql-pool-sign-in.png)
 
 1. At the bottom-right, select **Next**.
 
 	![](../images/dp500-create-a-dataflow-image14.png)
 
-1. In the Power Query navigation pane, select (do not check) the **DimDate** table.
+1. In the Power Query navigation pane, expand the sqldw and select (do not check) the **DimDate** table.
 
 	![](../images/dp500-create-a-dataflow-image15.png)
 
