@@ -469,7 +469,7 @@ In this task, you will test the model by creating a simple report layout.
 
 1. Close Power BI Desktop.
 
-### Stop the SQL pool
+### Pause the SQL pool
 
 In this task, you will stop the SQL pool.
 
@@ -477,4 +477,4 @@ In this task, you will stop the SQL pool.
 
 1. Locate the SQL pool.
 
-1. Stop the SQL pool.
+1. Pause the SQL pool.
